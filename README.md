@@ -1,24 +1,13 @@
-# Front-end developer's best friend
+# Front-end is MoeMet
 
-**Quick guide:** Locate gulpfile.js in /gulp/ and run `npm install --save-dev` then `gulp`. 
+**Quick guide:** 
 
-```
-Update December 14th, 2018:
-* Updated Bootstrap base to v4.1.3
-* Rewritten script for Gulp v4 compatibility
-* More polished script and useful features
-```
-
-This kit contains latest version of Bootstrap and gulpfile.js with SCSS compiler, PostCSS support, auto-reloading browser, auto-prefixer for cross-platform and device compatibility, and combining CSS files to singular minified CSS file. 
-
-This repo is for front-end developers, the base kit for them to either use or build on, and use it so they can start a new project right away without setting up the same thing all over again and save them times.
+Pindah ke gulpfile.js di /gulp/ dan run `npm install --save-dev` lanjut `gulp`. 
 
 #### Kit descriptions
 * index.html minimal boilerplate
 * Bootstrap framework
 * Gulp scripts, configured in `/gulp/gulpfile.js`
-
-_Note: It is not required to use gulp, but recommended. If you want to learn how to run the gulp script, please refer to the wiki [how to run gulp for this kit](https://github.com/dmxt/bootstrap-gulp-scss-kit/wiki/How-to-run-gulp-for-this-kit), shorter 5 minutes guides, or learn with me in more detailed [Gulp tutorial for Windows users](https://github.com/dmxt/beginner-gulp-tutorial-on-windows)'s material for beginners to start using gulp. I also made tutorial for any development workflow on Windows OS on [Medium article](https://uxdesign.cc/designers-workflow-on-windows-57393856ae59)._
 
 #### Detailed gulpfile.js script content
 * **BrowserSync** — a live view for your site under development, refreshes automatically on a file change.
@@ -46,7 +35,6 @@ _To request a new version and feature or report a bug, please open an issue._
 
 ### Unnecessary files:
 When you clone this repository, you may remove these files since they're deemed as unnecesary in working stage.
-* `LICENSE`
 * `README.md`
 
 ---
